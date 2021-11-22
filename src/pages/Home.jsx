@@ -1,8 +1,10 @@
 import logo from "../logo.svg";
-import Articles from "./HomePages/Articles";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
-
+import {useEffect} from "react";
 export default function Home() {
+  useEffect(() => {
+
+  }, [])
+
   return <div className="home-page">
     <img src={logo} className="App-logo" alt="logo" />
     <p>
